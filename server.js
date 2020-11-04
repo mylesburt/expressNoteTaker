@@ -17,7 +17,8 @@ app.use(express.json());
 //     res.sendFile(path.join(__dirname, "notes.html")
 // })
 
-require("./Develop/routes")(app);
+require("./Develop/routes/htmlRoutes")(app);
+//require("./")
 
 app.listen(PORT, function () {
     console.log("App listening on PORT: " + PORT);
