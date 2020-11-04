@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/mylesburt/expressNoteTaker/issues"
   },
-  "homepage": "https://github.com/mylesburt/expressNoteTaker#readme"
+  "homepage": "https://github.com/mylesburt/expressNoteTaker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  }
 }
