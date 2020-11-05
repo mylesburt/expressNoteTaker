@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 4040
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.use(express.static('public'));
+
 //ROUTES....
 
 // app.get("/", function (req, res) {

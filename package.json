@@ -1,24 +1,14 @@
 {
-  "name": "expressnotetaker",
+  "name": "note-taker",
   "version": "1.0.0",
-  "description": "An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mylesburt/expressNoteTaker.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mylesburt/expressNoteTaker/issues"
-  },
-  "homepage": "https://github.com/mylesburt/expressNoteTaker#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7"
+    "express": "^4.16.4"
   }
 }
